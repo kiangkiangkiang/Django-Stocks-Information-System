@@ -14,5 +14,6 @@ With the Django frame completing, the following steps will build a web server fo
 
 After doing so, the stocks information system will come into the view. The system is to collect Taiwan stocks, and using the chart to visualize.
 
+Note : the crawl tools for chrome, which could be found at \ithmoe\chromedriver.exe, is the version 96. Users have to update the version whenever the chrome becomes the latest.
 
 
