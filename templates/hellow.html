@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <title>I come from template!!</title>
+        <style>
+            body {
+               background-color: lightyellow;
+            }
+            em {
+                color: LightSeaGreen;
+            }
+        </style>
+    </head>
+    <body>
+
+    {% for name in name_list %}
+       <table>
+           <tr>
+               <td>
+                   {{ name.id }}
+               </td>
+               <td>
+                   {{ name.name }}
+               </td>
+           </tr>
+       </table>
+    {% endfor %}
+
+    </body>
+</html>
